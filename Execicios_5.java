@@ -71,7 +71,7 @@ public class Execicios_5 {
 	    else if (bebida == 4) {
 	    	calorias += 65; }
 	    
-	    System.out.println("Total de calorias: " + calorias);
+	    System.out.println("Total de calorias: " + calorias + " calorias");
 	    }
 
 	
