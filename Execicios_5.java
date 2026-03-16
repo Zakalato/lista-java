@@ -15,10 +15,10 @@ public class Execicios_5 {
 		int calorias = 0;
 		
 		System.out.println("Escolha seu prato:");
-		System.out.println("1 - Vegetariano");
-		System.out.println("2 - Peixe");
-		System.out.println("3 - Frango");
-		System.out.println("4 - Carne");
+		System.out.println("1 - Vegetariano (cal:180)");
+		System.out.println("2 - Peixe (cal:230)");
+		System.out.println("3 - Frango (cal:250)");
+		System.out.println("4 - Carne (cal350)");
 		prato = s.nextInt();
 		
 		if (prato == 1) {
@@ -34,10 +34,10 @@ public class Execicios_5 {
 			calorias += 350;}
 		
 		System.out.println("Escolha sua sobremesa:");
-		System.out.println("1 - Abacaxi");
-		System.out.println("2 - Sorvete diet");
-		System.out.println("3 - Mouse diet");
-		System.out.println("4 - Mouse chocolate");
+		System.out.println("1 - Abacaxi (cal:75)");
+		System.out.println("2 - Sorvete diet (cal:110)");
+		System.out.println("3 - Mouse diet (cal:170)");
+		System.out.println("4 - Mouse chocolate (cal:200)");
 		sobremesa = s.nextInt();
 		
 		if (sobremesa == 1) {
@@ -53,10 +53,10 @@ public class Execicios_5 {
 			calorias += 200; }
 		
 		System.out.println("Escolha sua bebida:");
-	    System.out.println("1 - Chá");
-	    System.out.println("2 - Suco de Laranja");
-	    System.out.println("3 - Suco de Melão");
-	    System.out.println("4 - Refrigerante diet");
+	    System.out.println("1 - Chá (cal:20)");
+	    System.out.println("2 - Suco de Laranja (cal:70)");
+	    System.out.println("3 - Suco de Melão (cal:100)");
+	    System.out.println("4 - Refrigerante diet (cal:65)");
 	    bebida = s.nextInt();
 	    
 	    if (bebida == 1) {
@@ -80,5 +80,3 @@ public class Execicios_5 {
 		
 	
 	
-
-
