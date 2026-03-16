@@ -15,15 +15,27 @@ public class Exercicio_1 {
 		
 		//variavel 1
 		
-		if (num % 10!= 0 && num % 5!= 0 && num % 2!= 0) {
-			System.out.println("Seu número não é divisível por 10, 5 ou 2"); }
+		String msg = "";
 		
-		if (num % 10 == 0 || num % 5 == 0 || num % 2 == 0) {
-			System.out.println("Seu número é divisível por 10, 5 ou 2"); }
+		if (num % 10 == 0) {
+		msg = (msg + "Divisivel por 10");
+		}
 		
+		if (num % 5 == 0) {
+		msg = (msg + " Divisivel por 5");
+		}
+		
+		if (num % 2 == 0) {
+		msg = (msg + " Divisivel por 2");
+		}
+		
+		if (msg.equalsIgnoreCase("")) {
+			System.out.println("Não é divisivel");
+		}
+		else {	
+		System.out.println(msg);
+		}
 	}
 	
 }
-		
-		
 	
